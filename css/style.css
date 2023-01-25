@@ -1,0 +1,2024 @@
+.header {
+    margin-top: 37px;
+    margin-bottom: 80px;
+}
+
+.header__blur::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 47%;
+    height: 950px;
+    background: rgba(79, 70, 78, 0.45);
+    backdrop-filter: blur(15px);
+    border-radius: 50px 0px 0px 50px;    
+}
+
+@media (max-width: 1200px) {
+    .header__blur::after {
+        height: 850px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__blur::after {
+        width: 52%;
+        height: 480px;
+        top: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__blur::after {
+        width: 48%;
+        height: 400px;
+        
+    }
+}
+
+@media (max-width: 700px) {
+    .header__blur::after {
+       display: none;
+    }
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width: 1200px) {
+    .header__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 150px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__menu {
+        gap: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__menu {
+        gap: 115px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header__menu {
+        gap: 190px;
+    }
+}
+
+.logo {
+    width: 100px;
+}
+
+@media (max-width: 1200px) {
+    .logo {
+        width: 70px;
+    }
+}
+
+@media (max-width: 700px) {
+    .logo {
+        width: 50px;
+    }
+}
+
+.header__link {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #F5FBF2;
+    position: relative;
+    transition: all 0.3s; 
+}
+
+@media (max-width: 1200px) {
+    .header__link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__link {
+        font-size: 10px;
+    }
+}
+
+.header__link:hover {
+    color: #FFCE4E;
+    
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+    .header__inner {
+        display: none;
+    }
+}
+
+.header__links {
+    display: flex;
+    align-items: center;
+    margin-right: 160px;
+    gap: 60px;
+}
+
+@media (max-width: 992px) {
+    .header__links {
+        margin-right: 80px;
+        gap: 40px;
+    }
+}
+
+.header__btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFCE4E;
+    background: rgba(233, 215, 167, 0.1);
+    padding: 20px 35px;
+    border: 1px solid #FFCE4E;
+}
+
+@media (max-width: 1200px) {
+    .header__btn {
+        padding: 15px 25px;
+       
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__btn {
+        padding: 10px 15px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__btn {
+        padding: 5px 10px;
+        font-weight: 400;
+        font-size: 10px;
+    }
+}
+
+
+.first__main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px;
+}
+
+@media (max-width: 768px) {
+    .first__main {
+        padding: 0 55px;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 700px) {
+    .first__main {
+        padding: 0 35px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.first__item {
+    max-width: 710px;
+    margin-top: -75px;
+}
+@media (max-width: 1200px) {
+    .first__item {
+        width: 450px;
+    }   
+}
+
+@media (max-width: 992px) {
+    .first__item {
+        width: 300px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .first__item {
+        width: 300px;
+    }   
+}
+
+@media (max-width: 700px) {
+    .first__item {
+        width: 200px;
+        display: contents;
+    }   
+}
+
+
+.h1 {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 130px;
+    font-family: 'Oxanium';
+    width: 550px;
+}
+
+@media (max-width: 1200px) {
+    .h1 {
+        font-size: 50px;
+        margin-top: 54px;
+        width: 490px;
+        line-height: 110px;
+    }   
+}
+
+@media (max-width: 992px) {
+    .h1 {
+        font-size: 30px;
+    width: 290px;
+    line-height: 50px;
+    margin-top: 78px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .h1 {
+        font-size: 30px;
+        width: 250px;
+        line-height: 50px;
+        margin-top: 70px;
+    }   
+}
+
+@media (max-width: 700px) {
+    .h1 {
+        width: 280px;
+        line-height: 50px;
+        margin-top: -40px;
+    }   
+}
+
+.h1 span {
+    color: #FFCE4E;
+}
+
+.first__btns {
+    display: flex;
+    align-items: center;
+    margin: 75px 0 120px;
+    gap: 40px;
+}
+
+@media (max-width: 992px) {
+    .first__btns {
+        margin: 75px 0 70px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .first__btns {
+        margin: 40px 0 55px;
+        gap: 20px;
+    }   
+}
+
+@media (max-width: 700px) {
+    .first__btns {
+        margin: 40px 0 55px;
+        gap: 20px;
+    }   
+}
+
+.first__btn,
+.first__btn2 {
+    padding: 20px 75px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    transition: all 0.3s;
+}
+
+@media (max-width: 1200px) {
+    .first__btn,
+    .first__btn2 {
+        padding: 15px 50px;
+        font-size: 18px;
+    }   
+}
+
+@media (max-width: 992px) {
+    .first__btn,
+    .first__btn2 {
+        padding: 15px 30px;
+        font-size: 14px;
+        line-height: 15px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .first__btn,
+    .first__btn2 {
+        padding: 8px 40px;
+    font-size: 10px;
+    line-height: 15px;;
+    }   
+}
+
+
+.first__btn {
+    background: #FFCE4E;
+    color: #000;
+}
+
+.first__btn:hover {
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(131, 131, 131, 0.47);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(131, 131, 131, 0.47);
+    box-shadow: 0px 0px 20px 5px rgba(131, 131, 131, 0.47);
+}
+
+.first__btn2 {
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FFCE4E;
+}
+
+.nft-btn__btn:hover {
+    
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(255, 206, 78, 0.47);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(255, 206, 78, 0.47);
+    box-shadow: 0px 0px 20px 5px rgba(255, 206, 78, 0.47);
+}
+
+.header__burger {
+    display: none;
+    
+}
+
+.header__burger img {
+    width: 15px;
+}
+
+@media (max-width: 700px) {
+    .header__burger {
+        display: block;
+        background-color: #1C121F;
+        border-color: #FFCE4E;
+    }
+}
+
+.first__numbers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: -25px 70px 100px 0;
+}
+
+@media (max-width: 1200px) {
+    .first__numbers {
+        gap: 80px;
+    }   
+}
+
+@media (max-width: 992px) {
+    .first__numbers {
+        gap: 38px;
+        margin: -10px 0px 60px -30px;
+    }
+}
+
+
+@media (max-width: 870px) {
+    .first__numbers {
+        gap: 40px;
+        margin: -28px 0px 55px -30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .first__numbers {
+        gap: 20px;
+        margin: -28px 0px 55px -120px;
+    }
+}
+
+@media (max-width: 700px) {
+    .first__numbers {
+        gap: 20px;
+        margin: -28px 0px 55px 20px;
+    }
+}
+
+    
+
+.first__number { 
+    font-size: 18px;
+    line-height: 35px;
+    color: #9B9E9A;
+
+    
+}
+
+@media (max-width: 992px) {
+    .first__number {
+        font-size: 14px;
+        line-height: 10px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .first__number {
+        font-size: 10px;
+        line-height: 10px;
+    }   
+}
+
+.first__number p {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 78px;
+    font-family: 'Oxanium';
+    color: #F5FBF2;
+    margin: -10px;
+}
+
+@media (max-width: 1200px) {
+    .first__number p {
+        font-size: 40px;
+        
+    }   
+}
+
+@media (max-width: 992px) {
+    .first__number p {
+        font-size: 25px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .first__number p {
+        font-size: 20px;
+    }   
+}
+
+p.first__main-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-nft__header {
+    background: linear-gradient(92.8deg, rgba(255, 137, 61, 0.09) -52.37%, rgba(250, 250, 250, 0.9) 137.41%);
+    opacity: 0.95;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(44px);
+    padding: 8px 35px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .first-nft__header {
+        width: 50%;
+    }   
+}
+
+.first__nft-ETH {
+    height: 80px;
+}
+
+@media (max-width: 768px) {
+    .first__nft-ETH {
+        height: 60px;
+    }   
+}
+
+.first__nft {
+    background: url(../img/nft-item.jpg);
+    width: 400px;
+    background-position: center;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+@media (max-width: 1200px) {
+    .first__nft {
+        width: 350px;
+        height: 580px;
+    }   
+}
+
+@media (max-width: 992px) {
+    .first__nft {
+        width: 300px;
+        height: 375px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .first__nft {
+        width: 250px;
+        height: 310px;
+    }   
+}
+
+.nft-header__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    color: #E4DEE7;
+    font-family: 'Oxanium';
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .nft-header__title {
+        font-size: 8px;
+    }   
+}
+
+.nft-header__numbers {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    font-family: 'Oxanium';
+    margin-top: -15px; 
+}
+
+@media (max-width: 768px) {
+    .nft-header__numbers {
+        font-size: 10px;
+       
+    }   
+}
+
+.first-nft__footer {
+    width: 100%;
+    background: #fff;
+    backdrop-filter: blur(13.5px);
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px 0px 15px 15px;
+}
+
+@media (max-width: 1200px) {
+    .first-nft__footer {
+        height: 60px;
+    }  
+}
+
+@media (max-width: 768px) {
+    .first-nft__footer {
+        height: 40px;
+    }  
+}
+
+.nft-footer__title {
+    font-family: 'Oxanium';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.07em;
+    color: #16091B;
+}
+
+@media (max-width: 1200px) {
+    .nft-footer__title {
+       font-size: 14px;
+       
+    }   
+}
+
+@media (max-width: 768px) {
+    .nft-footer__title {
+       font-size: 10px;
+       
+    }   
+}
+
+.nft-footer__nick {
+    font-size: 18px;
+    line-height: 35px;
+    color: #594D5E;
+    margin-top: -30px;
+}
+
+@media (max-width: 1200px) {
+    .nft-footer__nick {
+       font-size: 14px;
+       
+    }   
+}
+
+@media (max-width: 768px) {
+    .nft-footer__nick {
+       font-size: 10px;
+       
+    }   
+}
+
+.first-nft__btn {
+    background: #FFCE4E;
+    backdrop-filter: blur(22.5px);
+    padding: 20px 45px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    transition: all 0.3s;
+}
+.first-nft__btn:hover {
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(71, 71, 71, 0.47);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(71, 71, 71, 0.47);
+    box-shadow: 0px 0px 20px 5px rgba(71, 71, 71, 0.47);
+}
+
+@media (max-width: 1200px) {
+    .first-nft__btn {
+        padding: 10px 30px;
+        font-size: 14px;
+    }   
+}
+
+@media (max-width: 992px) {
+    .first-nft__btn {
+        padding: 5px 20px;
+        font-size: 14px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .first-nft__btn {
+        padding: 0px 10px;
+        font-size: 10px;
+    }   
+}
+.first__arrow-btn {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(100%);
+    background: rgba(109, 91, 114, 0.4);
+    box-shadow: 0px 14px 79px rgba(134, 19, 165, 0.1);
+    backdrop-filter: blur(40px);
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    transition: all 0.3s;
+}
+
+@media (max-width: 992px) {
+    .first__arrow-btn {
+        width: 80px;
+        height: 80px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .first__arrow-btn {
+        width: 50px;
+        height: 50px;
+    }   
+}
+
+@media (max-width: 700px) {
+    .first__arrow-btn {
+        bottom: -40px;
+    }   
+}
+
+.nft-btn__arrow:hover {
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(237, 237, 237, 0.47);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(237, 237, 237, 0.47);
+    box-shadow: 0px 0px 23px 7px rgba(237, 237, 237, 0.47);
+}
+.arrow img {
+    width: 25px;
+}
+
+.companies__main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.companies__platform {
+
+}
+
+@media (max-width: 1200px) {
+    .companies__platform {
+        width: 180px;
+    }   
+}
+
+@media (max-width: 992px) {
+    .companies__platform {
+        width: 130px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .companies__main {
+        display:flex;
+        width: 450px;
+        flex-wrap:wrap;
+    }   
+}
+
+@media (max-width: 700px) {
+    .companies__platform {
+        
+    }   
+}
+
+.companies {
+    margin: 200px 0 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Oxanium';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+    position: relative;
+}
+
+@media (max-width: 1200px) {
+    .title {
+       font-size: 50px; 
+    }   
+}
+
+@media (max-width: 992px) {
+    .title {
+       font-size: 40px; 
+    }   
+}
+
+@media (max-width: 700px) {
+    .title {
+       font-size: 30px;
+       margin-top: -35px; 
+    }   
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%) translateX(-35%);
+    
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+@media (max-width: 992px) {
+    .title::after {
+        width: 80px;
+        height: 80px; 
+    }   
+}
+
+@media (max-width: 700px) {
+    .title::after {
+        width: 60px;
+        height: 60px; 
+    }   
+}
+
+@media (max-width: 490px) {
+    .title::after {
+        width: 50px;
+        height: 50px; 
+    }   
+}
+
+.title span {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.title--purple:after {
+    background: #8613A5;
+}
+
+.title--red:after {
+    background: #E03054;
+}
+
+.auctions {
+    padding-bottom: 80px;
+}
+
+.title__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper.auctions-slider {
+    margin-top: 20px;
+}
+
+@media (max-width: 700px) {
+    .swiper.auctions-slider {
+        margin-top: 0;
+    }
+}
+
+.swiper-wrapper {
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .swiper-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 28px;
+    }
+}
+
+
+.auctions-slider {
+    display: flex;
+    justify-content: center;
+}
+
+.auctions__img {
+    position: relative;
+}
+
+.popular__img {
+
+}
+
+.autions-img__block {
+    width: 250px;
+    margin-left: 10px;
+}
+
+
+@media (max-width: 1200px) {
+    .autions-img__block {
+        width: 230px;
+    }
+}
+
+.img__block {
+    width: 240px;
+}
+
+@media (max-width: 1200px) {
+    .img__block {
+        width: 220px;
+    }
+}
+
+.auctions__img img {
+    object-fit: cover;
+    
+    display: block;
+}
+.auctions__img div {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    background: linear-gradient(125.33deg, #8613A5 18.61%, rgba(250, 250, 250, 0.65) 137.4%);
+    opacity: 0.95;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(22.5px);
+    border-radius: 0px;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #F5FBF2;
+    letter-spacing: 0.02em;
+
+}
+
+.auctions__item {
+    background: #3D2942;
+    padding: 18px;
+    
+}
+.auctions__item:not(first-child) {
+    margin: 0px 0px 0px 30px;
+}
+
+@media (max-width: 700px) {
+    .auctions__item:not(first-child) {
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+.auctions-profile__user {
+    display: flex;
+    align-items: center;
+}
+.auctions-profile__user img {
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.auctions-profile__owner {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    color: #F5FBF2;
+    margin-bottom: -10px;
+}
+
+@media (max-width: 900px) {
+    .auctions-profile__owner {
+        font-size: 16px;
+        margin-bottom: -20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .auctions-profile__owner {
+        font-weight: 400;
+        font-size: 14px;
+        margin-bottom: -25px;
+    }
+}
+
+.auctions-profile__nick {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #BDAAC1;
+    margin-top: 8px;
+}
+
+@media (max-width: 900px) {
+    .auctions-profile__nick {
+        font-size: 16px;
+         
+    }
+}
+
+@media (max-width: 700px) {
+    .auctions-profile__nick {
+        font-weight: 400;
+        font-size: 14px;
+        
+    }
+}
+
+.auctions-profile__likes {
+    display: flex;
+    align-items: center;
+}
+
+.auctions-profile__likes img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+@media (max-width: 900px) {
+    .auctions-profile__likes img {
+        width: 16px;
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 700px) {
+    .auctions-profile__likes img {
+        width: 14px;
+        margin-right: 3px;
+    }
+}
+
+.auctions-profile__likes span {
+    font-size: 25px;
+    line-height: 35px;
+    color: #76607A;
+}
+
+@media (max-width: 900px) {
+    .auctions-profile__likes span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .auctions-profile__likes span {
+        font-size: 14px;
+    }
+}
+
+.auctions-bid__title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+    color: #C6BFC8;
+}
+
+@media (max-width: 900px) {
+    .auctions-bid__title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .auctions-bid__title {
+        font-size: 14px;
+    }
+}
+
+.auctions-bid__price {
+    font-family: 'Oxanium';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+    color: #F5FBF2;
+}
+
+@media (max-width: 900px) {
+    .auctions-bid__price {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .auctions-bid__price {
+        font-size: 14px;
+    }
+}
+
+.auctions__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+@media (max-width: 700px) {
+    .auctions__profile {
+        margin-right: 15px;
+    }
+}
+
+.auctions__bid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -25px;
+}
+.auctions__btn {
+    display: block;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FDE8B3;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 75px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .auctions__btn  {
+        font-size: 16px;
+        
+    }
+}
+
+@media (max-width: 700px) {
+    .auctions__btn  {
+        font-size: 14px;
+        
+    }
+}
+
+.nft-btn__btn-dark {
+    transition: all 0.3s;
+}
+
+.nft-btn__btn-dark:hover {
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(241, 209, 124, 0.47);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(241, 209, 124, 0.47);
+    box-shadow: 0px 0px 23px 7px rgba(241, 209, 124, 0.47);
+}
+
+.auctions__view-all {
+    display: block;
+    margin: 80px auto;
+    padding: 25px 65px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+    background: rgba(233, 215, 167, 0.1);
+    border: 1px solid #FFCE4E;
+    transition: all 0.3s;
+}
+
+@media (max-width: 900px) {
+    .auctions__view-all  {
+        padding: 8px 15px;
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .auctions__view-all  {
+        padding: 8px 15px;
+        font-size: 14px;
+        margin-top: 40px;
+    }
+}
+
+
+.how {
+    padding-top: 50px;
+}
+
+.how__title {
+    font-family: 'Oxanium';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    color: #F5FBF2;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .how__title {
+       font-size: 50px; 
+    }   
+}
+
+@media (max-width: 992px) {
+    .how__title {
+       font-size: 40px; 
+    }   
+}
+
+@media (max-width: 992px) {
+    .how__title {
+       font-size: 40px; 
+       margin-top: -50px;
+    }   
+}
+
+.how__icon  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #372839;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+@media (max-width: 900px) {
+    .how__icon {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+.how__icon-img {
+    width: 40px;
+}
+
+.arrow img {
+    width: 25px;
+}
+
+@media (max-width: 992px) {
+    img.arrow {
+        height: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    img.arrow {
+        height: 18px;
+    }
+}
+
+.title span {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.title--purple:after {
+    background: #8613A5;
+}
+
+.title--red:after {
+    background: #E03054;
+}
+
+.auctions {
+    padding-bottom: 80px;
+}
+
+.title__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.auctions-slider {
+    display: flex;
+    justify-content: center;
+}
+
+.auctions-profile__likes {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.auctions__bid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -25px;
+}
+
+@media (max-width: 700px) {
+    .auctions__bid {
+        justify-content: space-around;
+    }
+}
+
+.nft-btn__btn-dark:hover {
+    background: rgba(255, 253, 249, 0.144);
+}
+
+
+.how__icon::after {
+    content: '';
+    position: absolute;
+    background: url(../img/vector.png);
+    top: 50%;
+    left: 0px;
+    transform: translateY(-50%) translateX(100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 115px;
+    height: 10px;
+    background-size: 90px;
+}
+
+@media (max-width: 700px) {
+    .how__icon::after {
+        display: none;
+    }
+}
+
+.how__subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFCE4E;
+
+}
+
+.how__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    gap: 120px;
+}
+
+@media (max-width: 900px) {
+    .how__items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 725px;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .how__items {
+        display: flex;
+        width: 590px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 490px) {
+    .how__items {
+        display: flex;
+        width: 400px;
+        row-gap: 50px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+.how__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.how__item:last-child :after {
+    display: none; 
+} 
+
+.popular {
+    margin-top: 70px;
+}
+
+.popular .auctions__img img {
+    min-height: 270px;
+}
+
+.popular .auctions__profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.popular .auctions-profile__nick {
+    font-size: 18px;
+    line-height: 36px;
+    color: #F5FBF2;
+}
+
+.popular .auctions-profile__likes {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #C2B5C6;
+
+}
+
+.popular .auctions-profile__likes span {
+    font-size: 16px;
+    line-height: 35px;
+    color: #76607A;
+}
+
+.categories-slider {
+    padding-top: 0 !important;
+}
+
+.swiper.categories-slider {
+    margin-top: 20px;
+}
+
+.categories {
+    margin-top: 100px;
+}
+
+.categories-slider {
+    display: flex;
+    justify-content: center;
+}
+
+.auctions__img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    opacity: 0;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.auctions__img:hover:after {
+    opacity: 0.8;
+}
+
+.auctions__img button {
+    background: #FFCE4E;
+    backdrop-filter: blur(22.5px);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    opacity: 0;
+    pointer-events: none;
+    color: #000000;
+    padding: 21px 58px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    white-space: nowrap;
+    transition: all 0.3s;
+}
+
+.auctions__img:hover button  {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.nft-btn__last:hover {
+    -webkit-box-shadow: 0px 0px 23px 7px rgba(251, 218, 134, 0.47);
+    -moz-box-shadow: 0px 0px 23px 7px rgba(251, 218, 134, 0.47);
+    box-shadow: 0px 0px 23px 7px rgba(251, 218, 134, 0.47);
+}
+
+.creators {
+    margin-top: 120px;
+}
+
+.creators__main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    row-gap: 50px;
+    gap: 50px;
+}
+
+@media (max-width: 960px) {
+    .creators__main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 556px;
+        gap: 15px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .creators__main {
+        gap: 15px;
+        width: 440px;
+    }
+}
+
+.creators__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 5px 20px;
+    background: #302034;
+    box-shadow: inset 2px 0px 0px #E03054;
+}
+
+.creators__block {
+    height: 80px;
+}
+
+@media (max-width: 900px) {
+    .creators__block {
+        height: 70px;
+    }
+}
+
+@media (max-width: 700px) {
+    .creators__block {
+        height: 60px;
+    }
+}
+
+@media (max-width: 490px) {
+    .creators__block {
+        height: 40px;
+    }
+}
+
+.creators__item img {
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 24px;
+    width: 60px;
+}
+
+@media (max-width: 900px) {
+    .creators__item img  {
+        margin-right: 15px;
+        width: 45px;
+    }
+}
+
+@media (max-width: 700px) {
+    .creators__item img  {
+        margin-right: 10px;
+        width: 35px;
+    }
+}
+
+.creators__inner {
+    display: flex;
+    align-items: center;
+
+}
+
+@media (max-width: 700px) {
+    .creators__inner  {
+        margin-right: -80px;
+    }
+}
+
+.creators__name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+    padding-right: 149px;
+}
+
+@media (max-width: 900px) {
+    .creators__name {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    .creators__name {
+        font-size: 14px;
+    }
+}
+
+.creators__price {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 36px;
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    color: #BDAAC1
+}
+
+@media (max-width: 700px) {
+    .creators__price {
+        font-size: 14px;
+        margin-top: -35px;
+    }
+}
+
+.creators__count {
+    position: relative;
+}
+
+.creators__count::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -45px;
+    transform: translateY(-50%);
+    height: 70px;
+    width: 3px;
+    background: #49374E;
+}
+
+@media (max-width: 900px) {
+    .creators__count::before {
+        height: 65px;
+    }
+}
+
+@media (max-width: 700px) {
+    .creators__count::before {
+        height: 60px;
+    }
+}
+
+@media (max-width: 490px) {
+    .creators__count::before {
+        height: 40px;
+    }
+}
+
+.creators__count {
+    font-family: 'Oxanium';
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 0.05em;
+    color: #F5FBF2;
+}
+
+@media (max-width: 900px) {
+    .creators__count {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    .creators__count {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 490px) {
+    .creators__count {
+        font-size: 14px;
+    }
+}
+
+.creators__items {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 36px;
+    color: #908294;
+    margin-top: -20px;
+}
+
+@media (max-width: 900px) {
+    .creators__items {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+    .creators__items {
+        font-size: 12px;
+        margin-top: -35px;
+    }
+}
+
+.subscribe {
+    background: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 80px 0;
+}
+
+@media (max-width: 900px) {
+    .subscribe {
+        margin-top: 100px;
+        padding: 30px 0;
+    }
+}
+
+@media (max-width: 700px) {
+    .subscribe {
+        margin-top: 70px;
+        padding: 15px 0;
+    }
+}
+
+.subscribe__title {
+    font-family: 'Oxanium';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    text-align: center;
+    color: #F5FBF2
+    
+}
+
+@media (max-width: 1200px) {
+    .subscribe__title {
+        font-size: 50px;
+    }
+}
+
+
+@media (max-width: 900px) {
+    .subscribe__title {
+       font-size: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .subscribe__title {
+      font-size: 30px;
+      margin-top: -30px;
+    }
+}
+
+
+.subscribe__main {
+}
+
+.subscribe__main div {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #E7B226;
+    width: 570px;
+    margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+    .subscribe__main div {
+        width: 500px;
+    }
+}
+
+@media (max-width: 700px) {
+    .subscribe__main div {
+        width: 250px;
+        height: 30px;
+    }
+}
+
+.subscribe__title {
+}
+
+.subscribe__input {
+    color: #fff;
+    font-size: 24px;
+    line-height: 35px;
+    background: none;
+    flex-grow: 1;
+    border: none;
+    outline: 0;
+    padding: 15px 25px 10px 25px;
+}
+
+@media (max-width: 900px) {
+    .subscribe__input {
+        font-size: 18px;
+        padding: 15px 25px 10px 25px;
+    }
+}
+
+@media (max-width: 700px) {
+    .subscribe__input {
+        font-size: 10px;
+        padding: 15px 25px 10px 25px;
+    }
+}
+
+.subscribe__input::placeholder {
+    color: #A48EA9;
+}
+
+.subscribe__btn {
+    background: #FFCE4E;
+    min-height: 100%;
+    display: block;
+    width: 180px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    color: #251928;
+    padding: 15px 0;
+}
+
+@media (max-width: 900px) {
+    .subscribe__btn {
+        font-weight: 400;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 700px) {
+    .subscribe__btn {
+        font-weight: 400;
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+        padding: 0;
+    }
+}
+
+.footer {
+    padding: 5px 0;
+    background: #251928;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+@media (max-width: 1200px) {
+    .footer__main {
+        gap: 60px;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer__main {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer__main {
+        
+    }
+}
+
+.footer-img__nft {
+    width: 100px;
+}
+
+@media (max-width: 1200px) {
+    .footer-img__nft {
+        width: 85px;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer-img__nft {
+        width: 65px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-img__nft {
+        width: 45px;
+    }
+}
+
+@media (max-width: 490px) {
+    .footer-img__nft {
+        width: 30px;
+    }
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin: 60px 0;
+}
+
+@media (max-width: 900px) {
+    .footer__social {
+        margin: 20px 0;
+    }
+}
+
+.footer__social a svg :hover {
+    fill: #d5a1e1;
+}
+
+.footer__social svg {
+    transition: all 0.3s;
+}
+
+.footer__social img {
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width: 900px) {
+    .footer__social svg {
+        width: 25px;
+        height: 25px;
+        gap: 20px;
+    }
+}
+
+.footer__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 36px;
+    color: #96839B;
+    max-width: 350px;
+}
+
+.footer__rights {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 36px;
+    color: #96839B;  
+}
+
+.footer__subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 35px;
+    color: #F5FBF2;
+    margin-bottom: 18px;
+}
+
+@media (max-width: 1200px) {
+    .footer__subtitle {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 900px) {
+    .footer__subtitle {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer__subtitle {
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 490px) {
+    .footer__subtitle {
+        font-size: 10px;
+    }
+
+}
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+@media (max-width: 900px) {
+    .footer__links {
+        display: none;
+    }
+}
+
+.footer__links a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    color: #96839B;
+}
+
+@media (max-width: 700px) {
+    .footer__links a {
+        font-size: 12px;
+        
+    }
+}
+
+@media (max-width: 490px) {
+    .footer__links a {
+        font-size: 10px;
+    }
+
+}
+
+.footer__links a:hover {
+    color: #d5a1e1;
+} 
+
